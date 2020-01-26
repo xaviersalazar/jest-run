@@ -3,6 +3,7 @@
   "displayName": "Jest Run",
   "description": "Run jest tests within vscode",
   "version": "0.0.1",
+  "publisher": "xaviersalazar",
   "engines": {
     "vscode": "^1.41.0"
   },
