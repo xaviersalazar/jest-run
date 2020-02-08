@@ -11,7 +11,7 @@ export class CodeLensProvider implements vscode.CodeLensProvider {
   }): vscode.Command => {
     return {
       command: "jestRun.run",
-      title: args.type === "describe" ? "Run block" : "Run",
+      title: args.type === "describe" ? "Run Describe" : "Run Test",
       arguments: [`npm test -- -u -t=\"${args.name}\"`],
       tooltip: "Run"
     };
